@@ -1,0 +1,22 @@
+//Constants for role types
+export const userAuthorize = ['Admin'];
+export const listingAuthorize = ['Admin'];
+export const companiesAuthorize = ['Admin', 'Administrative'];
+export const contactsAuthorize = ['Admin', 'Administrative'];
+export const opportunitiesAuthorize = ['Admin', 'Opportunity Viewer', 'Opportunity Editor','Manager'];
+export const estimatesAuthorize = ['Admin', 'Estimates Viewer', 'Estimates Editor','Manager','Estimates Creator'];
+export const opportunitiesEditorAuthorize = ['Admin', 'Opportunity Editor','Manager'];
+export const estimatesEditorAuthorize = ['Admin', 'Estimates Editor','Manager','Estimates Creator'];
+export const proposalsAuthorize = ['Admin'];
+export const projectsAuthorize = ['Admin'];
+export const poAuthorize = ['Admin'];
+export const ordersAuthorize = ['Admin'];
+export const ordersViewAuthorize = ['Admin','Service Tech'];
+export const invoicesAuthorize = ['Admin'];
+export const materialsAuthorize = ['Admin', 'Administrative'];
+export const expensesAuthorize = ['Admin'];
+export const timersAuthorize = ['Admin','Technician'];
+export const calendarAuthorize = ['Admin'];
+export const activitiesAuthorize = ['Admin'];
+export const documentsAuthorize = ['Admin'];
+export const groupsAuthorize = ['Admin'];
